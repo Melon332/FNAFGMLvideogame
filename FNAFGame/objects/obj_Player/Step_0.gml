@@ -1,3 +1,5 @@
+if(has_clicked_into_door) return;
+
 viewport_w = camera_get_view_x(view_camera[0]);
 
 if(mouse_x < viewport_w+view_w/2)
@@ -22,7 +24,7 @@ cx += speed;
 
 if(!boundless)
 {
-	cx = clamp(cx, 0, test-view_w);	
+	cx = clamp(cx, 0, current_room_width-view_w);	
 }
 
 camera_set_view_pos(view_camera[0], cx, camera_get_view_y(view_camera[0]));

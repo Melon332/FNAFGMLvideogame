@@ -1,0 +1,4 @@
+sprite = door_image;
+
+
+

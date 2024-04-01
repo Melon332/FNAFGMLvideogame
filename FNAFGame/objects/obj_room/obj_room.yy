@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Enviorment",
-    "path": "sprites/spr_Enviorment/spr_Enviorment.yy",
+    "name": "main_room",
+    "path": "sprites/main_room/main_room.yy",
   },
   "spriteMaskId": null,
   "visible": true,
