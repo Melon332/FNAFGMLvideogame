@@ -20,6 +20,7 @@
     {"name":"right_door_peek_flashlight","order":1,"path":"sprites/right_door_peek_flashlight/right_door_peek_flashlight.yy",},
     {"name":"main_room","order":7,"path":"sprites/main_room/main_room.yy",},
     {"name":"left_door_peek","order":6,"path":"sprites/left_door_peek/left_door_peek.yy",},
+    {"name":"obj_door","order":3,"path":"objects/obj_door/obj_door.yy",},
     {"name":"obj_peek_door","order":2,"path":"objects/obj_peek_door/obj_peek_door.yy",},
     {"name":"obj_room","order":1,"path":"objects/obj_room/obj_room.yy",},
     {"name":"right_door_peek_closed","order":8,"path":"sprites/right_door_peek_closed/right_door_peek_closed.yy",},
