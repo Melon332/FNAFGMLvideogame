@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "right_door_peek_closed",
+  "name": "spr_left_door_peek_flashlight",
   "bbox_bottom": 1349,
   "bbox_left": 0,
   "bbox_right": 2399,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"88d19960-8a04-4166-a140-dfd68ed187a3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"adf418ab-d66b-47e8-9e3c-8dfb3fcaf555",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 1350,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"05c5b7bd-e86d-4db6-ab6f-9f9927be6c17","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"24759dd5-9929-48ac-a893-09c64c5347f8","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "right_door_peek_closed",
+    "name": "spr_left_door_peek_flashlight",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"88d19960-8a04-4166-a140-dfd68ed187a3","path":"sprites/right_door_peek_closed/right_door_peek_closed.yy",},},},"Disabled":false,"id":"566c5814-bb1d-4536-bb53-ab5ef909bca9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"adf418ab-d66b-47e8-9e3c-8dfb3fcaf555","path":"sprites/spr_left_door_peek_flashlight/spr_left_door_peek_flashlight.yy",},},},"Disabled":false,"id":"a7feba61-07df-4188-b433-811bf9f7a0f4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

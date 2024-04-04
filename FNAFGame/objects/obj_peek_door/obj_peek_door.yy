@@ -27,12 +27,14 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"door_image","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"middle_door_peek","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"door_image","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_left_door_peek","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"closed_door_image","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_left_door_peek_closed","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"flashlight_door_image","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_left_door_peek_flashlight","varType":5,},
   ],
   "solid": false,
   "spriteId": {
-    "name": "right_door_peek_flashlight",
-    "path": "sprites/right_door_peek_flashlight/right_door_peek_flashlight.yy",
+    "name": "spr_right_door_peek_flashlight",
+    "path": "sprites/spr_right_door_peek_flashlight/spr_right_door_peek_flashlight.yy",
   },
   "spriteMaskId": null,
   "visible": true,

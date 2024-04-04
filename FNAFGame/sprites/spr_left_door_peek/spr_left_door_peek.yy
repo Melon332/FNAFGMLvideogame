@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "middle_door_peek",
+  "name": "spr_left_door_peek",
   "bbox_bottom": 1349,
   "bbox_left": 0,
   "bbox_right": 2399,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b064c905-6255-4a73-8c95-95115a5fce52",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4e7cb225-1b8c-417b-b971-0f36caa6c5de",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 1350,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5bdbbbc3-a9f0-4cce-b468-3f57e316f805","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bdca0f5f-f51f-4bd4-852d-e35c2e0929fa","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "middle_door_peek",
+    "name": "spr_left_door_peek",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b064c905-6255-4a73-8c95-95115a5fce52","path":"sprites/middle_door_peek/middle_door_peek.yy",},},},"Disabled":false,"id":"7f665a56-cd40-4bfb-a5cf-aacd8b415ea4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4e7cb225-1b8c-417b-b971-0f36caa6c5de","path":"sprites/spr_left_door_peek/spr_left_door_peek.yy",},},},"Disabled":false,"id":"5b8398df-3409-4767-b91c-11a7ca758d30","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

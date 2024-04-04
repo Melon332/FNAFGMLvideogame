@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "right_door_peek",
+  "name": "spr_right_door_peek_flashlight",
   "bbox_bottom": 1349,
   "bbox_left": 0,
   "bbox_right": 2399,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a4b064ad-d74a-443b-b11b-96ba4b0f8e3f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8f1eab0d-0824-4bf7-a0bb-352dd4977387",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 1350,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4d0f2723-4d4b-4605-9147-3379f803635a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2b1195b0-b183-4fe3-8e8e-8e3ce00d82f7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "right_door_peek",
+    "name": "spr_right_door_peek_flashlight",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a4b064ad-d74a-443b-b11b-96ba4b0f8e3f","path":"sprites/right_door_peek/right_door_peek.yy",},},},"Disabled":false,"id":"a763f8b2-86de-46f2-9edd-059220780e06","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8f1eab0d-0824-4bf7-a0bb-352dd4977387","path":"sprites/spr_right_door_peek_flashlight/spr_right_door_peek_flashlight.yy",},},},"Disabled":false,"id":"d51d6dc5-02fc-47a8-a848-db550820d13e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
