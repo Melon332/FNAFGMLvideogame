@@ -16,12 +16,12 @@ viewport_w = camera_get_view_x(view_camera[0]);
 
 if(mouse_x < viewport_w+view_w/2-400)
 {
-	speed = (mouse_x-(viewport_w+view_w/2)) / camera_speed;
+	speed = (mouse_x-(viewport_w+view_w/2-400)) / camera_speed;
 }
 
 else if(mouse_x > viewport_w+view_w/2+400)
 {
-	speed = (mouse_x-(viewport_w+view_w/2)) / camera_speed;
+	speed = (mouse_x-(viewport_w+view_w/2+400)) / camera_speed;
 }
 else 
 {
