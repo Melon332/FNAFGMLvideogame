@@ -24,5 +24,61 @@ current_interacted_door = -1;
 door_closed = false;
 flashlight_on = false;
 
+function handle_camera()
+{
+	viewport_w = camera_get_view_x(view_camera[0]);
+	
+	if(mouse_x < viewport_w+view_w/2-400)
+	{
+		speed = (mouse_x-(viewport_w+view_w/2-400)) / camera_speed;
+	}
+
+	else if(mouse_x > viewport_w+view_w/2+400)
+	{
+		speed = (mouse_x-(viewport_w+view_w/2+400)) / camera_speed;
+	}
+	else 
+	{
+		speed = 0;
+	}
+}
+
+//Function to store the interacted door
+function store_current_door(id)
+{
+	current_interacted_door = id;
+}
+
+//Opens and closes the current door
+function handle_door()
+{
+	if(flashlight_on) return; 
+	if(keyboard_check(vk_shift))
+	{
+		show_debug_message("wtf");
+	    obj_door.sprite_index = variable_instance_get(current_interacted_door, "closed_door_image");
+		door_closed = true;
+	}
+	else
+	{
+		door_closed = false;
+	}
+}
+
+//Handles activating the flashlight on the current door
+function handle_flashlight()
+{
+	if(door_closed) return;
+		if(keyboard_check(vk_control))
+	{
+		flashlight_on = true;
+		obj_door.sprite_index = variable_instance_get(current_interacted_door, "flashlight_door_image");
+	}
+	else
+	{
+		flashlight_on = false;
+	}
+}
+
 
 
